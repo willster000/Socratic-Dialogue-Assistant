@@ -3,7 +3,7 @@ import axios from "axios";
 import "./App.css"; // Ensure this line is present to import the new styles
 
 const App = () => {
-  const API_KEY = "not the key" // Replace with your actual API key
+  // Add const API_KEY = "your api key in these quotes"
   const API_URL = "https://api.openai.com/v1/chat/completions";
 
   const [conversation, setConversation] = useState([
