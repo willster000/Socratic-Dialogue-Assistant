@@ -1,0 +1,112 @@
+/* App.css */
+
+/* Global container for the app */
+.app-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Heading styles - using a serif font for a more editorial feel */
+.app-container h1, .final-article h2 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Chat container */
+.chat-container {
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  background: #f7f9fa; /* a soft off-white background */
+}
+
+/* Message styling */
+.message {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.message strong {
+  font-weight: bold;
+  color: #000;
+}
+
+/* Input bar styling */
+.input-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-bar input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  outline: none;
+  color: #333;
+  border-radius: 2px;
+}
+
+.input-bar input[type="text"]::placeholder {
+  color: #999;
+}
+
+/* Buttons (common styling) */
+button {
+  padding: 10px 15px;
+  font-size: 1em;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  cursor: pointer;
+  border: 1px solid #999;
+  background: #fff;
+  color: #333;
+  transition: background-color 0.3s ease;
+  border-radius: 2px;
+  margin-left: 10px;
+}
+
+button:hover {
+  background: #e3eaf0;
+}
+
+/* Control buttons for starting conversation and finalizing article */
+.control-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Final article section */
+.final-article {
+  margin-top: 30px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.final-article pre {
+  background: #f9fafb;
+  padding: 20px;
+  border: 1px solid #ccc;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Body background to give a pastel feel similar to Atlantic site */
+body {
+  margin: 0;
+  background: #edf2f7; /* soft pastel background */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
