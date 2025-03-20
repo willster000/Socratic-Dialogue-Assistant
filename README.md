@@ -1,3 +1,5 @@
+This app uses an OpenAI API to structure a conversation with a user about their worldivews. It is more of a proof of concept currently but someday will be added into Letterty, an article sharing and worldivew development app created by my friends at The Ideation Factory. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
